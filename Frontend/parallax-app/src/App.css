@@ -1,0 +1,85 @@
+.img1,
+.img2,
+.img3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.img1 {
+  background-image: url("./Assets//one.jpg");
+  min-height: 100vh;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.text-animation {
+  width: auto;
+  display: inline-block;
+  position: relative;
+  color: #32a25c;
+  font-weight: 700;
+  background: linear-gradient(#00fe61, #32a25c) #fff no-repeat 0 0;
+  background-size: 0 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: stripes 1.5s linear 1 forwards;
+}
+
+@keyframes stripes {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+/* Section 2 */
+.section {
+  padding: 100px 80px;
+  text-align: center;
+}
+.section-light {
+  padding: 50px 80px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+/* Section 3 */
+
+.img2 {
+  background-image: url("./Assets/two.jpg");
+  min-height: 50vh;
+  position: relative;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+/* Section 4 */
+
+.img3 {
+  background-image: url("./Assets/three.jpg");
+  min-height: 35vh;
+  position: relative;
+}
+
+/* Section 5 */
+
+.img4 {
+  background-image: url("./Assets/four.jpg");
+  min-height: 100vh;
+  position: relative;
+}

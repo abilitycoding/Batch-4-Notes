@@ -1,0 +1,7 @@
+:root {
+  --homeBg: pink !important;
+}
+
+.homeBg {
+  background-color: var(--homeBg);
+}

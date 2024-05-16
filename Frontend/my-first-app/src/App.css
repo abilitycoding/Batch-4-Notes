@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap");
+:root {
+  --homeBg: pink;
+}
+
+.home-bg {
+  background-color: var(--homeBg);
+}
+
+.about-bg {
+  /* background-color: blue; */
+}
+
+/* .font-italic {
+  font-style: italic;
+} */
+
+.jacquard-12-charted-regular {
+  font-family: "Jacquard 12 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
